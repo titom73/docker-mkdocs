@@ -1,3 +1,4 @@
+![Docker Pulls](https://img.shields.io/docker/pulls/titom73/mkdocs)  ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/titom73/mkdocs)
 # Container to run mkdocs
 
 ## About
