@@ -14,7 +14,7 @@ COPY requirements.txt requirements.txt
 # Perform build and cleanup artifacts
 RUN apk add --no-cache \
     git \
-    && apk add --no-cache --virtual .build gcc musl-dev \
+    && apk add --no-cache --virtual .build gcc musl-dev curl \
     && pip install --user -r requirements.txt \
     && apk del .build gcc musl-dev \
     && rm -rf /tmp/*
